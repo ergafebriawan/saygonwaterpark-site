@@ -42,13 +42,15 @@ export default function MainHeader() {
                         <div className="px-5 pt-2 pb-2 mx-2 text-gray-100 rounded-lg shadow-md md:w-48 sm:w-36 aspect-video bg-gradient-to-l to-cyan-600 from-cyan-400">
                         <div className="text-lg font-bold text-center">Harga Tiket</div>
                             <div className="flex justify-center my-3 text-gray-200"><FaTicketAlt size={30} color={'#fbbf24'}/></div>
-                            <div className="text-sm font-semibold text-center">Rp 35.000,-</div>
+                            <div className="text-sm font-semibold text-center">Rp 35.000,-(Weekday)</div>
+                            <div className="text-sm font-semibold text-center">Rp 40.000,-(Weekend)</div>
                             
                         </div>
                         <div className="px-5 pt-2 pb-2 mx-2 text-gray-100 rounded-lg shadow-md md:w-48 sm:w-36 aspect-video bg-gradient-to-l to-cyan-600 from-cyan-400">
                         <div className="text-lg font-bold text-center">Jam Buka</div>
                             <div className="flex justify-center my-3 text-gray-200"><FcClock size={30}/></div>
-                            <div className="text-sm font-semibold text-center">08.00 - 17.00 WIB</div>
+                            <div className="text-sm font-semibold text-center">09.00 - 17.00 WIB(Weekday)</div>
+                            <div className="text-sm font-semibold text-center">08.00 - 17.00 WIB(Weekend)</div>
                             
                         </div>
                     </div>
